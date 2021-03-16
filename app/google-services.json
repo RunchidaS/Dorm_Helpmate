@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "691956748362",
+    "firebase_url": "https://dorm-helpmate.firebaseio.com",
+    "project_id": "dorm-helpmate",
+    "storage_bucket": "dorm-helpmate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691956748362:android:3263cf3948003d2aef56b3",
+        "android_client_info": {
+          "package_name": "com.example.dormhelpmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691956748362-1n7dh2sqi165h7egdejit3qou2630epo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dormhelpmate",
+            "certificate_hash": "42c5d09f667aafdc6720a5e5ebadc9d8dea934dc"
+          }
+        },
+        {
+          "client_id": "691956748362-mggajlim3se34v3qk9jq69gmtnln2eh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq8Ja2NftyGpHzIw6J3IvsQdyg8_b8jrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691956748362-mggajlim3se34v3qk9jq69gmtnln2eh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

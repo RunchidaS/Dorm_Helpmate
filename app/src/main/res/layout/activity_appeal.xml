@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appeal">
+
+    <EditText
+        android:id="@+id/appealText"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="#FFDF80"
+        android:ems="100"
+        android:gravity="start|top"
+        android:hint="พิมพ์ตรงนี้เพื่อแจ้งเรื่องร้องเรียน..."
+        android:inputType="textMultiLine"
+        android:textColorHint="#595959" />
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/appealText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="#32408C"
+        android:text="send"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

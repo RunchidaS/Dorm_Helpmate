@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dorm Helpmate</string>
+    <string name="facebook_app_id">293287185100792</string>
+    <string name="fb_login_protocol_scheme">fb293287185100792</string>
+    <string name="notifications">notifications</string>
+    <string name="addPost">addPost</string>
+    <string name="addSlip">addPost</string>
+
+    <string name="machine_bullet">\u2022 เครื่องที่  :</string>
+    <string name="time_bullet">\u2022  เวลา  :</string>
+    <string name="bullet">\u2022</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
